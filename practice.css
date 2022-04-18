@@ -9,20 +9,33 @@ header{
   background-color: #EC715F;
 }
 
-nav{
+.logo{
+  height: 70px;
+}
+
+ul{
   width: 1024px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+}
+
+ul > :first-child {
+  margin-right: auto;
 }
 
 .nav_item{
   line-height: 70px;
-  list-style: none;
-  color: #FAFAFA;
+  list-style: none; 
   float: right;
   font-size: 16px;
   margin: 0 30px;
 }
 
-
+a{
+  text-decoration: none;
+  color: #FAFAFA;
+}
 
 footer{
   height: 60px;
@@ -30,7 +43,7 @@ footer{
   text-align: center;
 }
 
-.footer_item{
+.footer_text{
   line-height: 70px;
   color: #FAFAFA;
   font-size: 16px;
