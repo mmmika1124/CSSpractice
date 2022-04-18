@@ -15,6 +15,7 @@ header{
 
 ul{
   width: 1024px;
+  height: 70px;
   display: flex;
   justify-content: flex-end;
   margin: 0 auto;
@@ -36,6 +37,28 @@ a{
   text-decoration: none;
   color: #FAFAFA;
 }
+
+.main_visual{
+  height: 650px;
+  width: 100%;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: 0px -60px;
+  text-align: center;
+}
+
+.main_visual_text1{
+  font-size: 64px;
+  color: #FAFAFA;
+  padding-top: 200px ;
+}
+
+.main_visual_text2{
+  font-size: 20px;
+  color: #FAFAFA;
+  padding-top: 10px;
+}
+
 
 footer{
   height: 60px;
