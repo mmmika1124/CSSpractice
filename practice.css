@@ -65,7 +65,8 @@ a{
   padding-bottom: 90px;
 }
 
-.portfolio_text, .portfolio_item{
+.portfolio_text, 
+.portfolio_item{
   width: 920px;
   margin: 0 auto;
 }
@@ -77,13 +78,14 @@ a{
   position: relative;
 }
 
-.portfolio_text1::after {
+.portfolio_text1::after, 
+.feature_text1::after {
 	content: '';
   position: absolute;
   display: inline-block;
 	left: 50%;
   transform: translateX(-50%);
-  bottom: 0px;
+  bottom: -3px;
 	width: 70px;
 	height: 3px;
 	background-color: #EC715F;
@@ -142,6 +144,52 @@ a{
 
 .portfolio_item6{
   background-image: url(img/webcamp-mother.png);
+}
+
+.feature{
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feature_text1{
+  font-size: 32px;
+  color: #000000;
+  padding: 90px 0 8px 0;
+  position: relative;
+}
+
+.feature_text2{
+  font-size: 16px;
+  color: #000000;
+  padding: 30px 0 30px 0;
+}
+
+.feature_item{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+
+.feature_item > div{
+  width: 320px;
+  height: auto;
+}
+
+.feature_item > div:nth-child(2){
+  padding: 0 10px;
+}
+
+.feature_item_text1{
+  font-size: 20px;
+  color: #000000;
+  padding: 10px 0;
+}
+
+.feature_item_text2{
+  text-align: left;
+  font-size: 16px;
+  color: #000000;
 }
 
 footer{
