@@ -21,7 +21,7 @@ ul{
   margin: 0 auto;
 }
 
-ul > :first-child {
+ul > :first-child{
   margin-right: auto;
 }
 
@@ -59,10 +59,11 @@ a{
   padding-top: 10px;
 }
 
-.portfolio{
+.portfolio,
+.profile{
   background-color: #ECEFF1;
   text-align: center;
-  padding-bottom: 90px;
+  padding: 90px 0;
 }
 
 .portfolio_text, 
@@ -71,15 +72,18 @@ a{
   margin: 0 auto;
 }
 
-.portfolio_text1{
+.portfolio_text1,
+.feature_text1,
+.profile_text1{
   font-size: 32px;
   color: black;
-  padding: 90px 0 8px 0;
+  padding-bottom: 8px;
   position: relative;
 }
 
 .portfolio_text1::after, 
-.feature_text1::after {
+.feature_text1::after,
+.profile_text1::after{
 	content: '';
   position: absolute;
   display: inline-block;
@@ -91,7 +95,9 @@ a{
 	background-color: #EC715F;
 }
 
-.portfolio_text2{
+.portfolio_text2,
+.feature_text2,
+.profile_text2{
   font-size: 16px;
   color: black;
   padding: 30px 0;
@@ -103,7 +109,7 @@ a{
   flex-wrap: wrap;
 }
 
-.portfolio_item > div {
+.portfolio_item > div{
   width: 300px;
   height: 250px;
   background-size: cover;
@@ -150,25 +156,12 @@ a{
   width: 980px;
   margin: 0 auto;
   text-align: center;
-}
-
-.feature_text1{
-  font-size: 32px;
-  color: #000000;
-  padding: 90px 0 8px 0;
-  position: relative;
-}
-
-.feature_text2{
-  font-size: 16px;
-  color: #000000;
-  padding: 30px 0 30px 0;
+  padding: 90px 0;
 }
 
 .feature_item{
   display: flex;
   justify-content: center;
-  padding-bottom: 90px;
 }
 
 .feature_item > div{
@@ -190,6 +183,48 @@ a{
   text-align: left;
   font-size: 16px;
   color: #000000;
+}
+
+.feature_item_box > i{
+  font-size: 60px;
+}
+
+.profile_text{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.profile_item{
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.profile_item_box1,
+.profile_item_box2{
+  width: 512px;
+}
+
+.profile_item_box1 > img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.profile_item_box2{
+  text-align: left;
+}
+
+.profile_item_box_text1,
+.profile_item_box_text3{
+  font-size: 20px;
+  color: #000000;
+  padding-bottom: 5px;
+}
+
+.profile_item_box_text3{
+  padding-top: 20px;
 }
 
 footer{
