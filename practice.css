@@ -38,7 +38,7 @@ a{
   color: #FAFAFA;
 }
 
-.main_visual{
+#main_visual{
   height: 650px;
   width: 100%;
   background-image: url(img/mv.png);
@@ -59,8 +59,8 @@ a{
   padding-top: 10px;
 }
 
-.portfolio,
-.profile{
+#portfolio,
+#profile{
   background-color: #ECEFF1;
   text-align: center;
   padding: 90px 0;
@@ -155,7 +155,7 @@ a{
   background-image: url(img/webcamp-mother.png);
 }
 
-.feature{
+#feature{
   width: 980px;
   margin: 0 auto;
   text-align: center;
@@ -231,30 +231,36 @@ a{
   padding-top: 20px;
 }
 
-.contact{
+#contact{
   width: 800px;
   margin: 0 auto;
-  text-align: center;
-  display: block;
   padding: 90px 0;
+}
+
+.contact_text{
+  text-align: center;
 }
 
 .contact_item{
   display: flex;
   justify-content: center;
-  
+  text-align: center;
 }
 
 .contact_item_box{
   width: 400px;
-  text-align: center;
+  display: inline-block;
+  text-align: left;
 }
 
 .contact_item_boxt_text2{
   font-size: 16px;
   margin-bottom: 20px;
-  text-align: left;
-	display: inline-block;
+}
+
+.contact_item_box > i{
+  font-size: 50px;
+  margin-right: 20px;
 }
 
 footer{
