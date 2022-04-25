@@ -291,5 +291,21 @@ footer{
     height: 650px;
     width: 100%;
     background-image: url(img/code.png);
+    background-size: auto 650px;
+    background-position: center;
+  }
+
+  .main_visual_text1{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .main_visual_text2{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
   }
 }
