@@ -281,6 +281,7 @@ footer{
 
   ul{
     width: 90%;
+    margin: 0 auto;
   }
 
   .logo{
@@ -308,4 +309,30 @@ footer{
     text-align: center;
     font-size: 18px;
   }
+
+  .portfolio_text, 
+  .portfolio_item{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .portfolio_item{
+    display: block;
+    width: 90%;
+  }
+
+  .portfolio_item > div:nth-child(odd){
+    height: 0;
+    margin: 0;
+  }
+
+  .portfolio_item > div:nth-child(even){
+    margin: 0 auto 10px auto;
+  }
+
+  .portfolio_item > div:nth-child(6){
+    margin-bottom: 0;
+  }
+
+
 }
