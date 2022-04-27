@@ -334,5 +334,22 @@ footer{
     margin-bottom: 0;
   }
 
+  #feature{
+    width: 90%;
+  }
+
+  .feature_item{
+    display: block;
+  }
+
+  .feature_item > div:nth-child(1),
+  .feature_item > div:nth-child(2){
+    margin: 0 auto 10px auto;
+  }
+
+  .feature_item > div:nth-child(3){
+    margin: 0 auto;
+  }
+
 
 }
