@@ -351,5 +351,29 @@ footer{
     margin: 0 auto;
   }
 
+  .profile_text{
+    width: 90%;
+  }
+
+  .profile_item{
+    width: 90%;
+    display: block;
+  }
+
+  .profile_item_box1,
+  .profile_item_box2{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .profile_item_box2{
+    margin: 0 auto;
+  }
+
+  .profile_item_box_text1,
+  .profile_item_box_text3{
+    padding-top: 20px;
+  }
 
 }
