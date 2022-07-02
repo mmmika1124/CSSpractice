@@ -4,31 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <script src="https://kit.fontawesome.com/b899ee0f57.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="practice.css" />
+    <link rel="stylesheet" href="css/practice.css" />
     <title>WALS</title>
   </head>
   
   <body>
     <header>
       <nav>
-        <ul>
-          <a href="#main_visual">
-            <img class="logo" src="img/logo.png">
+        <div id="sp-menu">
+          <ul>
+            <a href="#main_visual">
+              <img class="logo" src="img/logo.png">
+            </a>
+            <li class="nav_item">
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav_item">
+              <a href="#feature">Feature</a>
+            </li>
+            <li class="nav_item">
+              <a href="#profile">Profile</a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div id="hm-icon">
+          <a class="menu-trigger" href="#">
+            <span></span>
+            <span></span>
+            <span></span>
           </a>
-          <li class="nav_item">
-            <a href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav_item">
-            <a href="#feature">Feature</a>
-          </li>
-          <li class="nav_item">
-            <a href="#profile">Profile</a>
-          </li>
-          <li class="nav_item">
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
+        </div>
       </nav>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/script.js"></script>
     </header>
     <main>
       <div id="main_visual">
